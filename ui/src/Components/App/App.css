@@ -1,0 +1,40 @@
+.app {
+  text-align: center;
+  display: flex;
+}
+
+.app-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.app-header-text {
+  width: 100%;
+}
+
+.app-content {
+  padding: 16px 0;
+  display: flex;
+  flex: 1 1 0px;
+}
+
+.app-content-item-count {
+  display: flex;
+  padding-left: 18px;
+}
+
+.app-content-item {
+  flex-basis: 100%;
+}
+
+.app-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.app-logo {
+  height: 80px;
+  pointer-events: none;
+}
